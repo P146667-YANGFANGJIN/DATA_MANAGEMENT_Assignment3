@@ -1,7 +1,7 @@
 # DATA_MANAGEMENT_Assignment3
 
 <p align="center">
-  <img src="image/pic.jpg" alt="MovieLens Ratings Interface" width="700"/>
+  <img src="image/pic.jpg" alt="Movie" width="700"/>
 </p>
 
 This project analyzes user-movie interactions using the MovieLens 100k dataset through Apache Zeppelin and Spark SQL. It addresses user behavior, movie ratings, and filtering logic to extract insights related to user age groups, genre preferences, and top-rated films.
