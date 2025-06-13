@@ -17,19 +17,19 @@ Using the MovieLens 100k dataset (`u.user`, `u.data`, `u.item`), this notebook a
 ## *2. File Structure*
 
 ```
-Assignment_3/
-├── assignment_3.json
-├── assignment_3.ipynb
-├── README.md 
-├── output/
-       ├──user.png
-       ├──item.png
-       ├──rating.png
-       ├──Q1.png
-       ├──Q2.png
-       ├──Q3.png
-       ├──Q4.png
-       ├──Q5.png
+Assignment_3/  
+├── assignment_3.json  
+├── assignment_3.ipynb  
+├── README.md   
+├── image/  
+       ├──user.png  
+       ├──item.png  
+       ├──rating.png  
+       ├──Q1.png  
+       ├──Q2.png  
+       ├──Q3.png  
+       ├──Q4.png  
+       ├──Q5.png  
 ```
 
 ---
@@ -45,6 +45,18 @@ Assignment_3/
 
 ---
 
+## *5. Summary of Findings*
+
+- Several high-scoring movies appear to be lesser-known titles, possibly reflecting the preferences of niche user segments.Several obscure movies (low popularity) hold high average ratings due to niche audiences.
+- The majority of active users demonstrate a preference for drama and comedy genres.
+- Users under the age of 20 form a distinct demographic cluster, with students comprising the dominant subgroup.
+- Scientist users aged 30–40, based on results, appear to be geographically distributed rather than regionally concentrated.
+
+---
+
+## *6. Conclusion*
+
+This study demonstrates the utility of Spark SQL within the Apache Zeppelin environment for the structured analysis of user–movie interaction data. All analytical queries adhere to the constraint of displaying the top 10 results, while user segmentation is implemented through well-defined SQL conditions. The modular and reproducible workflow facilitates systematic exploration of the MovieLens 100k dataset, supporting scalable and interpretable data analysis in a distributed computing context.
 
 
 
