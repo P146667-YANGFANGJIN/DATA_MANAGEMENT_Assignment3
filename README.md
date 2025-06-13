@@ -1,8 +1,8 @@
 # DATA_MANAGEMENT_Assignment3
-This notebook presents the solution to **Assignment 3**, using **Apache Zeppelin** and **Spark SQL** for structured data analysis based on the MovieLens 100k dataset.
+This project analyzes user-movie interactions using the MovieLens 100k dataset through Apache Zeppelin and Spark SQL. It addresses user behavior, movie ratings, and filtering logic to extract insights related to user age groups, genre preferences, and top-rated films.
 
 
-## Objective
+## *1. Objective*
 
 Using the MovieLens 100k dataset (`u.user`, `u.data`, `u.item`), this notebook answers the following five questions using **PySpark** and **Spark SQL**:
 
@@ -14,13 +14,14 @@ Using the MovieLens 100k dataset (`u.user`, `u.data`, `u.item`), this notebook a
 
 ---
 
-## File Structure
+## *2. File Structure*
 
 ```
 Assignment_3/
 ├── assignment_3.json
+├── assignment_3.ipynb
 ├── README.md 
-├── figures/
+├── output/
        ├──Q1.png
        ├──Q2.png
        ├──Q3.png
@@ -29,11 +30,19 @@ Assignment_3/
 ```
 
 ---
-## Tools Used
+## *3. Tools Used*
 
 - **Apache Zeppelin**
 - **Apache Spark 2** (PySpark + Spark SQL)
-- Dataset: [MovieLens 100k](https://grouplens.org/datasets/movielens/)
+
+---
+## *4. Data Source*
+
+- [MovieLens 100k Dataset](https://grouplens.org/datasets/movielens/)
+
+---
+
+
 
 
 
