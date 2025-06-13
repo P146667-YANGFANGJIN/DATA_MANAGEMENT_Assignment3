@@ -22,6 +22,9 @@ Assignment_3/
 ├── assignment_3.ipynb
 ├── README.md 
 ├── output/
+       ├──user.png
+       ├──item.png
+       ├──rating.png
        ├──Q1.png
        ├──Q2.png
        ├──Q3.png
