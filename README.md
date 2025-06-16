@@ -5,6 +5,7 @@
 </p>
 
 This project analyzes user-movie interactions using the MovieLens 100k dataset via PySpark, Spark SQL, and Cassandra. It focuses on extracting insights related to user demographics, genre preferences, and movie ratings by integrating Spark with a Cassandra NoSQL backend.
+
 ---
 
 ## *1. Objective*
@@ -41,7 +42,7 @@ Assignment_3/
 
 - **Apache Spark 2** (PySpark + Spark SQL)
 - **Apache Cassandra 3**
-- **Jupyter Notebook (CLI-based PySpark)**
+- **Jupyter Notebook (compiled from CLI-based PySpark execution)**
 
 ---
 ## *4. Data Source*
